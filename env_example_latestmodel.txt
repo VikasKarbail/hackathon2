@@ -1,0 +1,12 @@
+# Hugging Face Configuration
+HUGGINGFACE_TOKEN=your_huggingface_token_here
+
+# WatsonX Model Configuration (via Hugging Face)
+WATSONX_MODEL_NAME=gpt2-medium
+NLU_MODEL_NAME=cardiffnlp/twitter-roberta-base-sentiment-latest
+NER_MODEL_NAME=dslim/bert-base-NER
+
+# Application Settings
+FASTAPI_HOST=0.0.0.0
+FASTAPI_PORT=8000
+STREAMLIT_PORT=8501
